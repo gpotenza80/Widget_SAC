@@ -87,7 +87,7 @@
 		  
 		polar_to_cartesian(cx, cy, radius, angle) {
 		    var radians;
-		    radians = ((angle - 90) * Math.PI / 180.0) / 2;
+		    radians = (angle - 90) * Math.PI / 180.0);
 		    return [Math.round((cx + radius * Math.cos(radians)) * 100) / 100, Math.round((cy + radius * Math.sin(radians)) * 100) / 100];
 		}
 		
