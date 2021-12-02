@@ -5,7 +5,7 @@
 		:host {
 			border-radius: 10px;
 			border-width: 2px;
-			border-color: white;
+			border-color: black;
 			border-style: solid;
 			display: block;
 		} 
