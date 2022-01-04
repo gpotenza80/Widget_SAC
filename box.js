@@ -79,7 +79,7 @@
 			var rounded = Math.round( val * 10 ) / 10;
 			
 			if(rounded >100) {
-				var rounded = 100 }
+				var rounded = 100; }
 			
 			if(rounded >=-100 && rounded <=0) {
 				this.$style.innerHTML = ':host {border-radius: 10px;border-width: 2px;border-color: #d62f2f;border-style: solid;display: block;}.body {background: #4FE028;}.metric {padding: 10%;}.metric svg {max-width: 100%;}.metric path {stroke-width: 75;stroke: #ecf0f1;fill: none;}.metric text {font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;}.metric.participation path.data-arc {stroke: ' + color + ';}.metric.participation text {fill: ' + color + ';}';
